@@ -50,6 +50,6 @@ namespace System.Windows.Interop
         /// <summary>
         /// Callback when user clicks GetWinFX button
         /// </summary>
-        DispatcherOperationCallback GetWinFxCallback { get; set;}
+        DispatcherOperationCallback GetWinFXCallback { get; set;}
     }
 }

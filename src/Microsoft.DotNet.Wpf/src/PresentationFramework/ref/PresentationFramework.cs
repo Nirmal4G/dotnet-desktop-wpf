@@ -11254,7 +11254,7 @@ namespace System.Windows.Interop
         bool ErrorFlag { get; set; }
         string ErrorText { get; set; }
         string ErrorTitle { get; set; }
-        System.Windows.Threading.DispatcherOperationCallback GetWinFxCallback { get; set; }
+        System.Windows.Threading.DispatcherOperationCallback GetWinFXCallback { get; set; }
         string LogFilePath { get; set; }
         System.Windows.Threading.DispatcherOperationCallback RefreshCallback { get; set; }
         System.Uri SupportUri { get; set; }

@@ -97,7 +97,7 @@ namespace Microsoft.Internal.DeploymentUI
                 {
                     RetryButton.Visibility = Visibility.Collapsed;
                     ShowLogFileButton();
-                    if (GetWinFxCallback != null)
+                    if (GetWinFXCallback != null)
                     {
                         GetWinFXButton.Visibility = Visibility.Visible;
                     }
@@ -164,7 +164,7 @@ namespace Microsoft.Internal.DeploymentUI
         /// <summary>
         ///
         /// </summary>
-        public DispatcherOperationCallback GetWinFxCallback
+        public DispatcherOperationCallback GetWinFXCallback
         {
             set
             {
@@ -224,9 +224,9 @@ namespace Microsoft.Internal.DeploymentUI
 
         internal void OnGetWinFX(object sender, RoutedEventArgs e)
         {
-            if (GetWinFxCallback != null)
+            if (GetWinFXCallback != null)
             {
-                GetWinFxCallback(null);
+                GetWinFXCallback(null);
             }
         }
 
